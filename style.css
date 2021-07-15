@@ -26,7 +26,7 @@ header{
  .button{
      display: inline-flex;
      position: relative;
-        background-color: #E02C6D;
+       background-color: #E02C6D;
         color: #ffffff;
         width: 144px;
         height: 44px;
@@ -76,6 +76,10 @@ li{
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
     color: #ffffff;}
+
+.watch:hover{
+    color: rgb(22, 253, 253);
+}
 .player-container{
     display: flex;
     flex-wrap: wrap;
@@ -103,6 +107,7 @@ li{
     height: 236px;
     padding-right: 10px;
 }
+
 h2{
     color: #18191F;
     font-size: large;
@@ -131,10 +136,13 @@ p{
 h1{
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
-    color: #0A0826;
+    color: rgb(54, 6, 6);
     width: 650px;
     height: 205px;
     padding-top: 50px;
+}
+h1:hover{
+    color: darkcyan;
 }
 
 .football{
@@ -142,6 +150,7 @@ h1{
     padding-left: 700px;
     padding-top: 100px;
 }
+
 .football-logo img{
     display: block;
     margin: 0 auto;
